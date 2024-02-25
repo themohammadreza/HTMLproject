@@ -1,0 +1,111 @@
+ *{
+    border-radius: 8px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-color:white ;
+    transition: all ease 1s;
+    
+  }
+   
+body
+{
+    background-color: rgba(32, 30, 28, 0.793);
+}
+.Maindiv
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.Header
+{
+    width: calc(100% - 12px);
+    height: 150px;
+    border: 1px rgb(255, 255, 255) solid;  
+    margin: 6px;
+    transition: all ease 0.5s;
+}
+.dl
+{
+width: 20%;
+margin: auto;
+border: 1px solid rgb(255, 255, 255);
+margin-left: 0.8%;
+}
+
+.Menu
+{
+    width: calc(100% - 12px);
+    height: 50px;
+    border: 1px rgb(255, 255, 255) solid;   
+    margin: 6px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Menu a
+{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 128, 255);
+    margin-left: 15px;
+    transition: all ease 0.5s;
+}
+
+.Menu a:hover
+{
+    color: lawngreen;
+    transform: scale(120%);
+}
+
+.box
+{
+    width: calc(100% - 12px);
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 6px;
+}
+
+.Main
+{
+    width: 70%;
+    height: 500px;  
+    align-items: center;
+    border: 1px rgb(255, 255, 255) solid;
+    overflow: auto;
+}
+
+.Main img
+{
+    height: 350px;
+    width: 250px;
+    transition: all ease-in-out 1s ;
+}
+
+.Main img:hover
+{
+    border-radius: 12px;
+    transform: scale(91%);
+}
+
+.Side
+{
+    width: 29%;
+    height: 500px;  
+    border: 1px rgb(255, 255, 255) solid; 
+    overflow: auto;   
+    transition: all ease 1s;
+}
+
+.footer
+{
+    width: calc(100% - 12px);
+    height: 150px;
+    margin: 6px;
+    border: 1px rgb(255, 255, 255) solid;
+}
